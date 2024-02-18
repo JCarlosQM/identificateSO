@@ -1,21 +1,24 @@
-# Foobar
+#  IdentificateSO
+
+# Body
 
 It integrates IP address scanning to know the OS and port scanning, where by default the first 1024 are scanned but if you want to work in a specific way this can be adjusted.
 
 ## Clone
 
+##### HTTPS
 ```
-# HTTPS
+git clone https://github.com/JCarlosQM/identificateSO.git
+```
 
-https://github.com/JCarlosQM/identificateSO.git
+##### SSH
 ```
-```
-# SSH
-
-git@github.com:JCarlosQM/identificateSO.git
+git clone git@github.com:JCarlosQM/identificateSO.git
 ```
 
 ## Install requeriments
+
+Consider having 'nmap' installed for the project to work.
 
 ```
 pip install -r requeriments.txt
